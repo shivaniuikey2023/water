@@ -29,20 +29,36 @@ var meda = $('.meda')
 var higha = $('.higha')
 var paraa = $('.paraa')
 
-var good = $('.good');
-var empty = $('.paraa');
+
 var test1 = $('.test1');
+
+var good = $('.good');
+
 good.on("click", goodBtn)
 
 function goodBtn() {
   event.preventDefault();
- //svar good = $('.good').val("");
- test1.append(`<p>thanks for the feedback!</p>`);
+ test1.text(`thanks for the feedback!`);
  console.log("kisses!")
 }
+
+var ok = $('.ok');
+
+ok.on("click", okBtn)
+
 function okBtn() {
   event.preventDefault();
  //svar ok = $('.ok').val("");
- test1.append(`<p>thanks for the feedback!</p>`);
+ test1.text(`thanks for the feedback!`);
+ console.log("kisses!")
+}
+
+var bad = $('.bad');
+
+bad.on("click", badBtn)
+
+function badBtn() {
+  event.preventDefault();
+ test1.text(`thanks for the feedback!`);
  console.log("kisses!")
 }
