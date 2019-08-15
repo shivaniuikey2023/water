@@ -1,0 +1,45 @@
+/* body{
+  background-image: url("https://www.gold-master.com/Uploads/productGallery/ISJI296isjTRL%20WATERFINDER.5.jpg" alt="water");
+} */
+
+body{
+ background-image : url("https://wallpaperaccess.com/full/917964.jpg");
+ padding-left: 200px;
+ padding-right: 200px;
+ padding-top: 0px;
+ padding-bottom: 0px;
+ margin-top: 0px;
+ margin-bottom: 0px;
+ font-family: Quicksand;
+}
+div{
+  background-color: white;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.one {
+   padding: 10px;
+}
+
+.two {
+  padding: 10px;
+}
+
+.three {
+  padding: 10px;
+}
+
+.four {
+  padding: 10px;
+}
+
+.five {
+  padding: 10px;
+}
+
+.six {
+  padding: 10px;
+}
